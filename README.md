@@ -10,11 +10,11 @@ mvn clean install
 ### 2. 使用archetype
 
 ```bash
-mvn archetype:generate                                  \
-  -DarchetypeGroupId=com.whiteclaw.archetypes            \
-  -DarchetypeArtifactId=java-archetype         \
-  -DarchetypeVersion=1.0                \
-  -DgroupId=projectGroupId                          \
+mvn archetype:generate \
+  -DarchetypeGroupId=com.whiteclaw.archetypes \
+  -DarchetypeArtifactId=java-archetype \
+  -DarchetypeVersion=1.0 \
+  -DgroupId=projectGroupId \
   -DartifactId=projectArtifactId
     
 ```
