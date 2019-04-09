@@ -6,6 +6,7 @@
 .idea/
 *.iml
 dependency-reduced-pom.xml
+target/
 
 # CMake
 cmake-build-debug/
