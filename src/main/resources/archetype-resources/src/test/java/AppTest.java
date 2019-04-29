@@ -1,4 +1,4 @@
-package ${groupId};
+package ${groupId}.${artifactId};
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -11,16 +11,13 @@ import org.junit.jupiter.api.Test;
 public class AppTest {
     @BeforeAll
     public void init(){
-
     }
 
     @Test
     public void test() {
-        System.out.println("Test");
     }
 
     @AfterAll
     public void close(){
-
     }
 }

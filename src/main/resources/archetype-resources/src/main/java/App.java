@@ -1,4 +1,4 @@
-package ${groupId};
+package ${groupId}.${artifactId};
 
 /**
  * @author ${USER}
@@ -6,6 +6,5 @@ package ${groupId};
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World");
     }
 }
